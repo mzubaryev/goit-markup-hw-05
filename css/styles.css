@@ -52,6 +52,8 @@ input {
 button {
   /* font-family: inherit; */
   cursor: pointer;
+  font-family: inherit;
+  border: none;
 }
 .section-title {
   font-weight: 700;
@@ -676,7 +678,6 @@ input[type='checkbox']:checked + .policy-acsept-lable > .accept-checkbox {
   letter-spacing: 0.04em;
   text-align: center;
   color: #fff;
-  border: none;
   border-radius: 4px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background-color: #4d5ae5;
