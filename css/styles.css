@@ -427,6 +427,89 @@ button {
   fill: #f4f4fd;
 }
 
+.footer-sub {
+  margin-left: auto;
+}
+
+.footer-sub-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+
+  margin-bottom: 16px;
+}
+
+.footer-form {
+  display: flex;
+  gap: 24px;
+}
+
+.footer-form-input {
+  width: 264px;
+  height: 40px;
+  padding: 0 16px;
+
+  font-size: 12px;
+  line-height: 2;
+  color: #fff;
+  letter-spacing: 0.04em;
+
+  color: #fff;
+  background-color: transparent;
+  border-radius: 4px;
+  border: 1px solid #fff;
+
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  outline: none;
+
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-form-input::placeholder {
+  color: #fff;
+}
+
+.footer-form-input:focus {
+  border-color: #31d0aa;
+}
+
+.footer-form-input:focus::placeholder {
+  color: #31d0aa;
+}
+
+.footer-form-btn {
+  min-width: 165px;
+  height: 40px;
+  padding: 8px 24px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #fff;
+
+  border-radius: 4px;
+  background: #4d5ae5;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+}
+
+.footer-form-btn:hover,
+.footer-form-btn:focus {
+  background-color: #31d0aa;
+}
+
+.footer-form-icon {
+  fill: #fff;
+  margin-left: 16px;
+}
+
 /* end footer section */
 
 /* backdrop section */
@@ -634,11 +717,13 @@ button {
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 input[type='checkbox']:checked + .policy-acsept-lable > .accept-checkbox {
   border: none;
   background-color: #404bbf;
   fill: #f4f4fd;
 }
+
 .policy-acsept-lable {
   font-size: 12px;
   font-weight: 400;
@@ -688,7 +773,7 @@ input[type='checkbox']:checked + .policy-acsept-lable > .accept-checkbox {
   margin: 0 auto;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-submit-btntn:hover,
+.modal-submit-btn:hover,
 .modal-submit-btn:focus {
   background-color: #404bbf;
 }
